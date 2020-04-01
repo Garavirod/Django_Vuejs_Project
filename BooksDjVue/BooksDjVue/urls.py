@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # Here we register the API routes, we define the veriosn of the api
+    # Here we register the API routes, we define the veriosn of the apithat is a good practice
     path('api/v1.0/',include('book.urls'))
 ]
